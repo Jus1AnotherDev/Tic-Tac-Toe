@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+}
+
+#restart {
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+h1 {
+    padding: 10px;
+    margin: 0;
+}
+
+#selectSign {
+    padding: 10px;
+    margin: 0;
+}
+
+#selectSign h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#selectSign button {
+    height: 40px;
+    width: 40px;
+    margin: 0;
+}
+
+#inlineContent {
+    display: inline-flex;
+}
+
+#inlineContent h2 {
+    padding: 10px;
+}
+
+#gameBoard {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+
+}
+
+.grid-item {
+    border: 1px solid black;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}

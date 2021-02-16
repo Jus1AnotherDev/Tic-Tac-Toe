@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Rock Paper Scissors</title>
+        <meta name="description" content="Rock Paper Scissors">
+        <meta name="author" content="Nitin M.">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Tic-Tac-Toe</h1>
+
+        <h2>First to 3 wins.</h2>
+
+        <button id="restart" onclick="window.location.reload(false)">Restart</button>
+
+        <div id="selectSign">
+            <h3>Player 1 select your sign:</h3>
+            <button onclick="signSelector('X')">X</button>
+            <button onclick="signSelector('O')">O</button>
+        </div>
+
+        <div id=inlineContent>
+            <h2>Player 1 score:</h2>
+            <h2 id="playerOneScore">0</h2>
+
+            <div id="gameBoard">
+                <div id="grid-container">
+                    <div class="grid-item" id="button1" onclick="gridSquarePressed(id)"></div>
+                    <div class="grid-item" id="button2" onclick="gridSquarePressed(id)"></div>
+                    <div class="grid-item" id="button3" onclick="gridSquarePressed(id)"></div>
+                    <div class="grid-item" id="button4" onclick="gridSquarePressed(id)"></div>
+                    <div class="grid-item" id="button5" onclick="gridSquarePressed(id)"></div>
+                    <div class="grid-item" id="button6" onclick="gridSquarePressed(id)"></div>
+                    <div class="grid-item" id="button7" onclick="gridSquarePressed(id)"></div>
+                    <div class="grid-item" id="button8" onclick="gridSquarePressed(id)"></div>
+                    <div class="grid-item" id="button9" onclick="gridSquarePressed(id)"></div>
+                </div>
+            </div>
+
+            <h2>Player 2 score:</h2>
+            <h2 id="playerTwoScore">0</h2>
+        </div>
+
+        <script src="main.js">
+        </script>
+    </body>
+</html>
